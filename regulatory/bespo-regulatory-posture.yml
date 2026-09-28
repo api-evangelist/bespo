@@ -1,0 +1,13 @@
+generated: '2026-09-27'
+method: probed
+source: https://bespo.co/privacy-policy/
+signals:
+  subprocessors:
+    url: https://bespo.co/privacy-policy/
+    section: null
+    note: Indicates that Bespo does not share personal data with third parties.
+    evidence:
+      - source: https://bespo.co/privacy-policy/
+        http_status: 200
+        fetched: /tmp/bespo_privacy.html
+        quote: "Bespo is committed to protecting you and your data. We will not disclose any personal information to third parties."
